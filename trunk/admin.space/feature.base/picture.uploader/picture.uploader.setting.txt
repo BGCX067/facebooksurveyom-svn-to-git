@@ -1,0 +1,38 @@
+INSERT INTO `settings` (`feature_id`, `title`, `value`, `date`, `description`, `admin_id`, `display`) VALUES
+(17, 'icon', 'multimedia/pictures/template/admin.space/icons/camera.gif', '0000-00-00 00:00:00', 'Icon of the feature', '', ''),
+(17, 'link', 'admin.space/feature.base/picture.uploader/', '0000-00-00 00:00:00', 'Link of the feature', '', ''),
+
+(17, 'target_extra_large', 'multimedia/pictures/extra_large/', '0000-00-00 00:00:00', '', '', ''),
+(17, 'target_original', 'multimedia/pictures/original/', '0000-00-00 00:00:00', 'Destination of the original file', '', ''),
+(17, 'target_large', 'multimedia/pictures/large/', '0000-00-00 00:00:00', 'Destination of the large file', '', ''),
+(17, 'target_medium', 'multimedia/pictures/medium/', '0000-00-00 00:00:00', 'Destination of the medium file', '', ''),
+(17, 'target_small', 'multimedia/pictures/small/', '0000-00-00 00:00:00', 'Destination of the small file', '', ''),
+
+(17, 'extra_large_height', '500', '0000-00-00 00:00:00', 'Height of the picture which will be displayed in lytebox window', '', ''),
+(17, 'extra_large_width', '0', '0000-00-00 00:00:00', 'Size for the image which is displayed in lytebox perhaps', '', ''),
+(17, 'large_width', '400', '0000-00-00 00:00:00', '', '', ''),
+(17, 'large_height', '0', '0000-00-00 00:00:00', '', '', ''),
+(17, 'medium_width', '200', '0000-00-00 00:00:00', '', '', ''),
+(17, 'medium_height', '0', '0000-00-00 00:00:00', '', '', ''),
+(17, 'small_width', '120', '0000-00-00 00:00:00', '', '', ''),
+(17, 'small_height', '0', '0000-00-00 00:00:00', '', '', ''),
+
+(17, 'multimedia_type', 'picture', '0000-00-00 00:00:00', '', '', ''),
+(17, 'picture_type', 'products picture', '0000-00-00 00:00:00', 'Used when you need to upload pictures for different features on the same navigation tab', '', ''),
+
+(17, 'multi_upload', 'true', '0000-00-00 00:00:00', 'True or False', '', ''),
+(17, 'file_extensions', '*.jpg;*.gif', '0000-00-00 00:00:00', 'File extension that are accepted', '', ''),
+(17, 'file_extensions_description', 'JPG and GIF only', '0000-00-00 00:00:00', 'Text that display the type of extension available.', '', ''),
+(17, 'max_upload', '0', '0000-00-00 00:00:00', 'What is the maximum number that can be uploaded.', '', ''),
+(17, 'uploader_swf', 'includes/php.module/uploader/images/uploader.swf', '0000-00-00 00:00:00', 'The path of the SWF object which displays the button. According to the studies the path should be an absolute one.', '', ''),
+(17, 'cancel_image', 'includes/php.module/uploader/images/cancel.png', '0000-00-00 00:00:00', 'The small cancel icon which is displayed in the popup under the upload button', '', ''),
+(17, 'upload_script', 'upload/upload.php', '0000-00-00 00:00:00', 'The script that will do the uploading', '', ''),
+
+(17, 'upload_button', 'includes/php.module/uploader/images/choose.pictures.gif', '0000-00-00 00:00:00', 'This is the big huge button which the user will click on. It should be somethign very interesting and attractive', '', ''),
+
+(17, 'delete_original', 'yes', '0000-00-00 00:00:00', 'Set to no if we want to keep the original file which is uploaded', '', ''),
+(17, 'resample_extra_large', 'yes', '0000-00-00 00:00:00', 'Create a extra large sample. yes or no', '', ''),
+(17, 'resample_large', 'yes', '0000-00-00 00:00:00', 'yes or no', '', ''),
+(17, 'resample_medium', 'yes', '0000-00-00 00:00:00', 'yes or no', '', ''),
+(17, 'resample_small', 'yes', '0000-00-00 00:00:00', 'yes or no', '', ''),
+(17, 'list_type', 'list.php', '0000-00-00 00:00:00', 'Set how the list is displayed. The value is the name of the list file. Default should be index.php', '', '');

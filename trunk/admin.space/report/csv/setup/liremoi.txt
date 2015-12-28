@@ -1,0 +1,5 @@
+Including the export CSV is the most easy thing to do. You only have 
+to copy the CSV folder to the masterzone and then just include the link file in the 
+left.php to display the link for the CSV saction
+
+			<?php include'../csv/includes/link.php'?>

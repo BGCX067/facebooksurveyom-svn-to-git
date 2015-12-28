@@ -1,0 +1,121 @@
+/*************************************************************************************************************************
+		COMMENTS FROM VISHAL: restaurant menu page
+**************************************************************************************************************************/
+
+#restaurant_menu {
+	padding-top: 40px;
+}
+
+#restaurant_menu .left_column{
+	 background: url('../../../multimedia/pictures/template/website/brown.box.gif') 60px bottom no-repeat;
+	 padding-bottom: 40px;
+}
+
+#restaurant_menu .left_column ul {
+	 background: white url('../../../multimedia/pictures/template/website/brown.box.gif') left top no-repeat;
+	 padding: 40px 40px 0px 45px;
+}
+
+#restaurant_menu .left_column ul li {
+	margin-bottom: 10px;
+}
+
+#restaurant_menu .left_column ul a {
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+
+.menu_list {
+	color: #202020;
+}
+
+.menu_list .menu_item {
+	padding-bottom: 30px;
+	height: 73px;
+	overflow: hidden;
+}
+
+.menu_list .image {
+	width: 90px;
+	height: 73px;
+	overflow: hidden;
+	float: left;
+	margin-right: 12px;
+}
+
+.menu_list .image .background {
+	background: url('../../../multimedia/pictures/template/website/dummy.food.png') no-repeat;
+	width: 100%;
+	height: 100%;
+}
+
+.menu_list .image a {
+	background: url('../../../multimedia/pictures/template/website/menu.picture.thumb.png') no-repeat;
+	display: block;
+	height: 100%;
+	text-decoration: none;	
+	padding-right: 5px;
+}
+
+.menu_list .time_to_cook {
+	color:white;
+	display:block;
+	float:right;
+	font-size:16px;
+	font-weight:bold;
+	line-height:1;
+	padding: 43px 3px 0px 0px;
+}
+.menu_list .cook_min {
+	display: block;
+	font-size: 10px;
+	color: white;
+	float: right;
+	clear: right;
+	line-height: 1;
+}
+
+.menu_list .title {
+	float: left;
+	margin-right: 10px;
+}
+
+.menu_list .title h3 {
+	font-size: 16px;
+	margin: 0px;
+	line-height: 1; 
+}
+
+.menu_list .title h3 a {
+	text-decoration: none;
+	color: #202020; 
+}
+
+.menu_list .rating {
+	float: left;
+	height:15px;
+}
+
+.menu_list .description {
+	float: left;
+}
+
+.menu_list .star_count {
+	float: right;
+	margin: 0px;
+	color: #e6e6e6;
+}
+
+.menu_list .star-rating {
+	float: right;
+	margin: 0px 5px 0px 0px;
+}
+
+.menu_list .description h6 {
+	font-size: 11px;
+	line-height: 1.4;	
+	font-weight: normal;
+	padding-top: 10px;
+	width: 350px;
+}

@@ -1,0 +1,43 @@
+/*************************************************************************************************************************
+	IE6 MESSAGE : Format the DIV message which is displayed in IE6 browser
+**************************************************************************************************************************/
+body {
+	_width: 100%;
+	_height: 100%;
+}
+.IE6_message_wrapper {
+	_width: 100%;
+	_height: 100%;
+	_z-index: 9999;
+	_position: absolute;
+	_top: 0px;
+	_left: 0px;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://localhost/www.mresto.com/website/includes/php.module/ie6message/files/overlay.png',sizingMethod='scale');
+	zoom:1;
+	haslayout:1px;
+}
+
+.IE6_message {
+	_width: 500px;
+	_height: 220px;
+	_border: 10px solid #FFFFFF;
+	_background-color: #E9E9E9;
+	_font-family: Tahoma, Arial;
+	_font-size:11px;
+	_padding: 20px;
+	_text-align: center;
+	_position: absolute;
+	_top: 50%;
+	_left: 50%;
+	_margin-left: -280px;
+	_margin-top: -140px;
+	_zoom:1;
+	_haslayout:1px;
+}
+.IE6_message img{
+	_border-width: 0px;
+	_padding: 1px;
+	_margin-left: auto;
+	_margin-right: auto;
+}
+

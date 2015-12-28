@@ -1,0 +1,231 @@
+﻿/*************************************************************************************************************************
+	COMMON ELEMENTS
+**************************************************************************************************************************/
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image:url('../../../multimedia/pictures/template/website/red.line.gif');
+	background-repeat:repeat-x;
+	background-position: 0px 130px;
+	font-family:Verdana;
+	font-size:11px;
+	color:gray;
+}
+a {
+   outline: none;
+}
+ul, li {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.readmore {
+	display:block;
+	padding:0 0 0 20px;
+	font-weight:bold;
+	background-image:url('../../../multimedia/pictures/template/website/bullet.png');
+	background-repeat:no-repeat;
+	background-position:left center;
+	color:black;
+	text-decoration:none;
+}
+.white {color:white}
+.alignedright {float:right}
+.readmore:hover {color:#96C000; background-image:url('../../../multimedia/pictures/template/website/bullet.hover.png');}
+
+#logo { 
+	position: relative;
+	text-indent: -9999px;
+	width: 388px;
+	height: 191px;
+	background-image: url('../../../multimedia/pictures/template/website/logo.png');
+	top:0px; 
+	z-index: 100;
+}
+#header {
+	height:130px;
+	margin-top: -212px;
+}
+#content {
+	margin-top:-60px; 
+	min-height:400px; 
+	margin-bottom:50px
+}
+
+#footer {min-height:100px; padding:10px; background:#c0c0c0; margin-top: 30px;}
+
+#topnavigation {
+	margin-top:91px;
+	height:40px;
+	background-image:url('../../../multimedia/pictures/template/website/top.menu.whole.gif');
+	background-position:right top;
+	background-repeat:no-repeat;
+}
+#topnavigation ul {
+	float:left;
+	width:330px;
+	margin-left:10px;
+	color:#808080;
+}
+#topnavigation ul li {
+	float: left;
+	padding-top: 12px ;
+	margin-left: 10px;
+	height:28px
+}
+#topnavigation ul li a {
+	color:#808080; 
+	text-decoration:none;
+	display:block;
+	height:28px
+}
+#topnavigation ul li a:hover {
+	color:#800000;
+	background-image:url('../../../multimedia/pictures/template/website/menu.small.arrow.png');
+	background-position:center bottom;
+	background-repeat:no-repeat;
+}
+.searchbox {
+	width:212px;
+	height:25px;
+	float:right;
+	margin-top:9px;
+}
+.searchbox input{
+	border-style: none;
+	border-color: inherit;
+	border-width: medium;
+	float: left;
+	padding: 6px 5px 5px;
+	width: 165px;
+	height: 15px;
+	background: url('../../../multimedia/pictures/template/website/search.textbox.gif') no-repeat;
+	font-size: 11px;
+	font-family: Verdana;
+}
+.searchbox button:hover {cursor:pointer;}
+
+.searchbox button {
+	border-style: none;
+	border-color: inherit;
+	border-width: medium;
+	float:left;
+	width:24px;
+	height:25px;
+	background:url('../../../multimedia/pictures/template/website/search.button.gif') no-repeat;
+}
+.searchbox button span {display:none;}
+
+ #websitewrapper {margin-top: 0px;}
+ 
+ /*************************************************************************************************************************
+		COMMENTS FROM VISHAL: breadcrumbs
+ **************************************************************************************************************************/
+ .breadcrumbs {
+	position:relative;
+	z-index:101;
+	top:-70px;
+	padding-left: 210px;
+ }
+ .breadcrumbs li {
+	float: left;
+	margin-right: 10px;
+	padding-left: 10px;
+	background-image: url('../../../multimedia/pictures/template/website/breadcrumbs.seperator.png');
+	background-repeat: no-repeat;
+	background-position: left 6px;
+ }
+ .breadcrumbs li.first {background: none; padding-left: 0px;}
+ .breadcrumbs li a {
+	font-size: 10px;
+	color: #808080;
+	text-decoration: none;
+ }
+  .breadcrumbs li a:hover {
+	text-decoration: none;
+ }
+ 
+ 
+ /*************************************************************************************************************************
+		COMMENTS FROM VISHAL: Green tab on restaurant pages
+ **************************************************************************************************************************/
+ .sub_navigation {
+	height: 37px;
+	background-image: url('../../../multimedia/pictures/template/website/seb.menu.green.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	margin-top:-92px;
+	position:relative;
+}
+.sub_navigation ul{padding-right: 15px;}
+.sub_navigation li{
+	float: right;
+	margin: 5px 14px 0px 0px;
+}
+.sub_navigation li a{
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+}
+.sub_navigation li a:hover, .sub_navigation li.selected{font-weight: bold;}
+
+
+/*************************************************************************************************************************
+		COMMENTS FROM VISHAL: Pagination tabs
+**************************************************************************************************************************/
+
+.pagination {
+	padding-top: 40px;	
+	width: 210px;
+	float: right;
+	margin: 0px;
+}
+
+.pagination li {
+	float: left;
+	width: 18px;
+	height: 19px;
+	text-align: center;
+	margin: 0px 5px;
+	color: #2d2915;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.pagination li a {
+	text-decoration: none;
+	color: #2d2915;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	display: block;
+	padding-top: 1px;
+}
+
+.pagination li.previous {
+	text-indent: -9999px;
+	background: url('../../../multimedia/pictures/template/website/pagination.previous.gif');
+}
+
+.pagination li.next {
+	text-indent: -9999px;
+	background: url('../../../multimedia/pictures/template/website/pagination.next.gif');
+}
+
+.pagination li.selected a{
+	color: white;	
+	background: url('../../../multimedia/pictures/template/website/pagination.button.gif');
+}
+
+.pagination li a:hover {
+	color: white;	
+	background: url('../../../multimedia/pictures/template/website/pagination.button.gif');
+}
+
+.pagination li.previous a:hover {
+	background: url('../../../multimedia/pictures/template/website/pagination.previous.gif');
+}
+
+.pagination li.next a:hover {
+	background: url('../../../multimedia/pictures/template/website/pagination.next.gif');
+}

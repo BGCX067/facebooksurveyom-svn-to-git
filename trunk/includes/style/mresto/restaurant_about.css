@@ -1,0 +1,82 @@
+/*************************************************************************************************************************
+		COMMENTS FROM VISHAL: The restaurant about us
+**************************************************************************************************************************/
+
+#restaurant_about {
+	padding-top: 35px;
+}
+
+#slides_container{
+	background-image: url('../../../multimedia/pictures/template/website/dummy4.png');			   
+	height:270px;
+	padding: 14px 0px 0px 15px;
+	width:386px;
+} 
+
+#slides .jFlowSlideContainer div{
+	width: 368px;
+	height: 251px;
+	border: 1px solid #BBBBBB;
+	background-image: url('../../../multimedia/pictures/template/website/dummy1.gif');
+} 
+
+#controller li {
+	background-image:url(../../../multimedia/pictures/template/website/round.black.png);
+	color:white;
+	display:block;
+	float:left;
+	font-size:12px;
+	font-weight:bold;
+	height:22px;
+	margin:10px 0 0 10px;
+	text-align:center;
+	width:25px;
+	padding-top: 2px;
+}
+
+#controller li:hover, #controller li.jFlowSelected { 
+	background-image:url(../../../multimedia/pictures/template/website/round.green.png);
+	cursor: pointer;
+}
+
+.right_column {
+	padding-left: 25px;
+}
+
+.right_column h2 {
+	font-size: 28px;
+	margin: 0px;
+	padding: 0px 0px 30px 0px;
+	color: black;
+	font-weight: normal;
+	line-height: 1.2;
+}
+
+#star_rating ul {
+	float:left;
+}
+
+#star_rating .star_count {
+	position: absolute;
+	margin: 1px 0 0 140px;
+	font-size: 15px;
+}
+
+#star_rating .facebook_share {
+	position: absolute;
+	margin: 3px 0 0 140px;
+	font-size: 15px;
+}
+
+.facebook_share .button{
+	background-image:url(../../../multimedia/pictures/template/website/facebook.share.gif);
+	display: block;
+	width: 57px;
+	height: 18px;
+	text-indent: -9999px;
+}
+
+.resto_description {
+	clear: both;
+	padding-top: 10px;
+}

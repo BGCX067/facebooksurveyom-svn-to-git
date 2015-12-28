@@ -1,0 +1,98 @@
+﻿.form_class {
+	font-family: verdana;
+	color:gray;
+}
+
+.form_class .formhelp {
+	display: block;
+	padding-left: 205px;
+	color: #999999;
+	font-size: 8pt;
+}
+
+.form_class button {
+	margin: 20px 0px 10px 175px;
+	font-size: 14pt;
+}
+.form_class p {
+	padding: 0px;
+	margin: 5px 0px 10px 0px;
+	vertical-align: top;
+	font-size: 8pt;
+}
+
+.form_class button:hover {
+	cursor:pointer;
+}
+
+.form_class h4 {
+	padding: 0px 0px 3px 0px;
+	margin: 10px 0px 15px 0px;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+	border-bottom-color: #CCCCCC;
+	color: #666666;
+} 
+
+.form_class h2 {
+	padding: 0px 0px 3px 0px;
+	margin: 15px 0px 3px 0px;
+	font-family: Verdana;
+	font-size: 15pt;
+	font-weight: normal;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+	border-bottom-color: #CCCCCC;
+	color: #666666;
+}
+
+.form_class label {
+	font-size: 8pt;
+	width: 150px;
+	text-align: left;
+	display: inline-block;
+	height: 17px;
+	vertical-align: middle;
+	color: #808080;
+	margin-left: 20px;
+}
+
+.form_class .compulsory {
+	color: #82BC07;
+	padding-right:5px;
+}
+
+
+
+.form_class input, select, textarea {
+	font-family: Verdana;
+	font-size: 8pt;
+	width: 300px;
+}
+
+.form_class select optgroup {
+	font-family: Verdana;
+	font-size: 8pt;
+	font-weight: bold;
+	font-style: normal;
+}
+
+.form_class fieldset {
+	margin-top: 10px;
+	border: 0px #EBEBEB solid;
+	padding: 0px 0px 0px 105px;
+	color: gray;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.form_class fieldset p {
+	font-size: 8pt;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
